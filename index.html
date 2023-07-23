@@ -1,152 +1,355 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <!--Metadatos-->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!--Name va autor y en content el nombre del autor -->
-    <meta name="author" content="Jose Manuel Martin Concina">
-    <meta name="description" content="Portafolio de desarrollo web de Jose Manuel Martin Concina">
-    <meta name="Keywords" content="HTML, CSS, JavaScript, React, Java, MySQL">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jose Manuel Martin Concina" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Jose Manuel Martin Concina"
+    />
+    <meta name="Keywords" content="HTML, CSS, JavaScript, React, Java, MySQL" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--Titulo-->
-    <title>Jose Concina | FullStack </title>
+    <title>Jose Concina | FullStack</title>
     <!--Favicon-->
-    <link rel="icon" type="imagenes/x-icon" href="imagenes/icono.png">
-    <!--Bootstrap-->>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" type="imagenes/x-icon" href="imagenes/icono.png" />
+    <!--Bootstrap-->
+    >
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <!--Iconos de Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <!--CSS-->
-    <link rel="stylesheet" href="style.css">
-    <!--Rubik Dirt de google fonts-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Google fonts-->     
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
-</head>
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
 
-<body>
+  <body>
     <!--Barra de navegacion-->
     <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-toggler">
-                <a class="navbar-brand" href="#">
-                    <img src="imagenes/icono.png" width="50" alt="Logo de la paguina wep">
-                </a>
-                <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Contactos</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="imagenes/icono.png"
+              width="50"
+              alt="Logo de la paguina wep"
+            />
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactos">Contactos</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!--Seccion Hero o principal-->
     <section class="hero align-items-stretch">
-        <div class="herro-principal d-flex flex-column justify-content-center align-items-center">
-            <img class="hero-imagen-desarrollador rounde-circle" src="imagenes/perfil.png" alt="Foto de Jose Concina">
-            <h1>Hola, soy Jose Manuel Concina</h1>
-            <h2>Desarrollador FullStack con habilidades en diseño y formato profesional de aplicaciones web.</h2>
-        </div>
-        <div class="hero-inferior">
-            <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor ,laptop y logos">
-        </div>
-
+      <div
+        class="herro-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador rounde-circle"
+          src="imagenes/perfil.png"
+          alt="Foto de Jose Concina"
+        />
+        <h1>Hola, soy Jose Manuel Concina</h1>
+        <h2>
+          Desarrollador Full-Stack .
+        </h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="imagenes/hero-inferior.svg"
+          alt="Monitor ,laptop y logos"
+        />
+      </div>
     </section>
     <!--Sobre Mi-->
-    <section class="sobre-mi  seccion-oscura">
-        <div class="contenedor">
-            <h2 class="seccion-titulo">Conoce a Jose Manuel Martin</h2>
-            <p class="seccion-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquid quia
-                maiores labore at animi
-                laudantium expedita unde eveniet autem tempore laboriosam ea asperiores voluptates dolore officia
-                reiciendis iste officiis.</p>
-        </div>
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Jose Manuel Martin</h2>
+        <p class="seccion-texto">
+     Soy José, un apasionado del desarrollo de software con sólidos conocimientos en programación, desarrollo web y redes. Resuelvo problemas complejos con soluciones innovadoras y disfruto trabajando en equipo. Siempre estoy aprendiendo y me adapto fácilmente a nuevos desafíos tecnológicos. Mi comunicación efectiva y habilidades de gestión del tiempo me ayudan a entregar proyectos de calidad. Estoy emocionado por seguir creciendo profesionalmente en el campo de la Tecnología de la Información
+        </p>
+      </div>
     </section>
     <!--Experiencia-->
     <section class="experiencia seccion-clara">
-        <div class="container text-center">
-            <div class="row">
-                <!--Desarrollo Web-->
-                <div class="columna col-12 col-md-4">
-                    <i class="bi bi-laptop"></i>
-                    <p class="experiencia-titulo">Desarrollo Web</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis totam rem voluptates nisi
-                        officia, </p>
-                    <div class="badges-contenedor">
-                        <span class="badge text-bg-primary">HTML</span>
-                        <span class="badge text-bg-primary">CSS</span>
-                        <span class="badge text-bg-primary">JavaScript</span>
-                        <span class="badge text-bg-primary">React</span>
-                    </div>
-                </div>
-                <!--Lenguajes -->
-                <div class="columna col-12 col-md-4">
-                    <i class=" bi bi-filetype-java"></i>
-                    <p class="experiencia-titulo">Back-End</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis totam rem voluptates nisi
-                        officia, </p>
-                    <div class="badges-contenedor">
-                        <span class="badge text-bg-primary">JAVA</span>
-                        <span class="badge text-bg-primary">MySQL</span>
-                        <span class="badge text-bg-primary">JDBC</span>
-                        <span class="badge text-bg-primary">JPA</span>
-                    </div>
-                </div>
-                <!--Etudios-->
-                <div class="columna col-12 col-md-4">
-                    <i class="bi bi-egg"></i>
-                    <p class="experiencia-titulo">Estudios</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis totam rem voluptates nisi
-                        officia, </p>
-                    <div class="badges-contenedor">
-                        <span class="badge text-bg-primary">Programacion Web</span>
-                        <span class="badge text-bg-primary">FullStack</span>
-                        
-                    </div>
-                </div>
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarrollo Web-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+              totam rem voluptates nisi officia,
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
             </div>
-
+          </div>
+          <!--Lenguajes -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-filetype-java"></i>
+            <p class="experiencia-titulo">Back-End</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+              totam rem voluptates nisi officia,
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">JAVA</span>
+              <span class="badge text-bg-primary">MySQL</span>
+              <span class="badge text-bg-primary">JDBC</span>
+              <span class="badge text-bg-primary">JPA</span>
+            </div>
+          </div>
+          <!--Etudios-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-egg"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+              totam rem voluptates nisi officia,
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Programacion Web</span>
+              <span class="badge text-bg-primary">FullStack</span>
+            </div>
+          </div>
         </div>
-
+      </div>
     </section>
     <!--Proyectos-->
-<section class="proyectos-recientes seccion-clara d-flex flex-column">
-    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
-    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
-<!--Galeria de Proyectos-->
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos proyectos que he creado recientemente...
+      </h3>
+      <!--Galeria de Proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto1  -->
+          <div class="col-12 col-md-6 col-lg-4">            
             <div class="proyecto">
-                <img src="" alt="">
-                <div class="overlay">
-
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1" />
+                 <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="url-pagina-web" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>></a>
                 </div>
             </div>
+          </div>
+
+         
+          
+                </div>
+                <!-- Proyecto2  -->
+          <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 2" />
+                 <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="url-pagina-web" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>></a>
+                </div>
+            </div>
+          </div>
+            </div>
+            <!-- Proyecto3  -->
+          <div class="col-12 col-md-6 col-lg-4">            
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 3" />
+                 <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="url-pagina-web" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>></a>
+                </div>
+            </div>
+          </div>
+          </div>          
         </div>
-    </div>
-
+      </div>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+    <button type="button" class="btn btn-info"> 
+      Ver más proyectos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+    </a>
+    </section>
+    <!-- Seccion de Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Articulos</h2>
+<div class="card">
+  <div class="card-header">
+    Mas recientes
+  </div>
+  <ul class="list-group list-group-flush">
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+       <li class="list-group-item">Guía HTML & CSS.</li>
+    </a>
+    
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+       <li class="list-group-item">Guía JavaScript.</li>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+       <li class="list-group-item">Guía JAVA.</li>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+       <li class="list-group-item">Guía MySQL.</li>
+    </a>
+  </ul>
 </div>
+  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+    <button type="button" class="btn btn-info"> 
+      Ver más articulos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+    </a>
+    </section>
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+<h2 class="seccion-titulo">Testimonios</h2>
+<h3 class="seccion-descipcion">Estos son algunos testimonios de mis compañeros ....</h3>
+<!-- Carrusel -->
+    </section>
+<div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <img class="testimonios-imagen rounded-circle" src="imagenes/cliente1.svg" alt="foto de Juan">
+        <p class="testimonios-texto">En el último año, tuve el placer de contar con un compañero excepcional, José, con quien realicé un curso de diseño web. Su generosidad y amabilidad hicieron que la experiencia fuese enriquecedora. José, resolutivo y con diversas aptitudes, impulsó nuestro éxito y alcanzamos metas con entusiasmo. Agradezco haber encontrado a José, haciendo este camino de aprendizaje significativo y memorable.</p>
+        <div class="testimonios-info">
+          <p class="cliente">Juan</p>
+          <p class="cargo">Desarrollador Web</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+       <div class="container">
+        <img class="testimonios-imagen rounded-circle" src="imagenes/cliente2.svg" alt="foto de Susana">
+        <p class="testimonios-texto">He tenido el gusto de conocer a José, un compañero excepcional. Su amabilidad y responsabilidad han sido inspiradores para todos. Además de tener múltiples aptitudes, su actitud colaborativa crea un ambiente laboral armonioso y productivo. Estoy agradecida por tener a José como compañero</p>
+        <div class="testimonios-info">
+          <p class="cliente">Susana</p>
+          <p class="cargo">Desarrolladora FullStack</p>
+        </div>
+        </div>
+        </div>
+        <div class="carousel-item">      
+        <div class="container">
+        <img class="testimonios-imagen rounded-circle" src="imagenes/cliente3.svg" alt="foto de Oscar">
+        <p class="testimonios-texto">José, un compañero excepcional, es una fuente constante de inspiración en el trabajo. Su amabilidad, responsabilidad y habilidades crean un ambiente laboral enriquecedor. Estoy agradecido de contar con el en nuestro equipo.</p>
+        <div class="testimonios-info">
+          <p class="cliente">Oscar</p>
+          <p class="cargo">Desarrollador FullStack</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+<!-- Contactos -->
+<section id="contactos" class="contacto seccion-oscura">
+<div class="container">
+  <div class="container text-center rectangulo d-flex justify-content-evenly">
+<div class="row">
+<div class="col-12 col-md-4 seccion-titulo">
+  ¡Hablemos!
+</div>
+<div class="col-12 col-md-4 seccion-descripcion">
+Contáctame para iniciar tu proyecto de desarrollo web y hare que tu visión se vuelva realidad.
+</div>
+<div class="col-12 col-md-4" >
+<a href="mailto:tatusen84@gmail.com">
+  <button type="button">
+    Contacto 
+    <i class="bi bi-envelope-check-fill"></i>
+  </button>
 
+</a>
+</div>
+</div>
+  </div>
 </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-</body>
-
+<!-- pie de pagina (Footer) -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+<img class="footer-logo" src="imagenes/icono-blanco.svg" alt="logo del portafolio">
+<p class="footer-texto text-center">Aprendo y creo proyecto todos los días <br>Creemos un proyecto juntos.</p>
+<div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+<a href="https://twitter.com/home"target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-twitter"></i>
+</a>
+<a href="https://github.com"target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-github"></i>
+</a>
+<a href="https://www.linkedin.com/in/martin-concina-913493267/"target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-linkedin"></i>
+</a>
+<a href="https://www.instagram.com/josemartinconcina/"target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-instagram"></i>
+</a>
+<a href="mailto:tatusen84@gmail.com"target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-envelope"></i>
+</a>
+</div>
+<div class="derecho-de-autor">Creado por Jose Concina  (2023) &#169;</div>
+</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
